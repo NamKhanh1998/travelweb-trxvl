@@ -1,0 +1,42 @@
+.mobile-input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  .mobile-input-error {
+    color: red;
+  }
+}
+
+.mobile-input {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  animation: 2.5s cubic-bezier(0.25, 1, 0.3, 1) wipe-in-right both;
+
+  input {
+    border: none;
+    border-bottom: 1px solid var(--primary-color);
+    outline: none;
+    color: #7b809a;
+  }
+
+  .mb-input-save {
+    font-size: 18px;
+    color: #344767;
+    opacity: 0.7;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+@keyframes wipe-in-right {
+  from {
+    clip-path: inset(0 100% 0 0);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}

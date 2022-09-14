@@ -1,0 +1,65 @@
+.TravelBlog-wrapper {
+  .TravelBlog-title {
+    padding: 8px 120px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+    text-align: left;
+  }
+
+  .TravelBlogs {
+    padding: 8px 120px 120px 120px;
+    display: flex;
+    gap: 16px;
+    width: 1366px;
+    overflow-x: scroll;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    .TravelBlog-item {
+      padding: 16px;
+      background: #ffffff;
+      box-shadow: 0px 4px 16px rgba(158, 158, 158, 0.25);
+      border-radius: 16px;
+
+      .TravelBlog-item-img {
+        width: 310px;
+        height: 200px;
+        border-radius: 8px;
+      }
+
+      .TravelBlog-item-detail {
+        margin-top: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+
+        .TravelBlog-item-title {
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 31px;
+          color: #000000;
+        }
+
+        .TravelBlog-item-comunity {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 20px;
+          color: #000000;
+          opacity: 0.5;
+        }
+
+        .TravelBlog-item-amount {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 20px;
+          color: #000000;
+          opacity: 0.5;
+        }
+      }
+    }
+  }
+}

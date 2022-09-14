@@ -1,0 +1,125 @@
+.ProfileContent-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+
+  .profile-info {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 0px 4px 16px rgba(158, 158, 158, 0.25);
+    border-radius: 8px;
+    .info-title {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding-bottom: 23px;
+      border-bottom: 1px solid #f8f9fa;
+
+      .title-details {
+        display: flex;
+        justify-content: space-between;
+        font-size: 18px;
+        color: #344767;
+
+        p {
+          font-weight: 700;
+          line-height: 140%;
+        }
+      }
+
+      .title-desc {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 140%;
+        text-align: left;
+        color: #7b809a;
+      }
+    }
+
+    .info-details {
+      margin-top: 23px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      align-items: flex-start;
+
+      .detail-item {
+        p {
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 140%;
+          /* identical to box height, or 20px */
+
+          /* Linear/Dark Blue */
+
+          color: #344767;
+
+          span {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 140%;
+            margin-left: 10px;
+            color: #7b809a;
+          }
+
+          .social-items {
+            gap: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.social-title {
+  display: flex;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 140%;
+  color: #344767;
+  .social-items {
+    display: flex;
+    gap: 10px;
+
+    .social-icon {
+      color: var(--primary-color);
+    }
+  }
+}
+
+.mobile-item-con {
+  display: flex;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 140%;
+  color: #344767;
+
+  .mobile-item {
+    display: flex;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    margin-left: 10px;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    color: var(--primary-color);
+    align-items: center;
+
+    .phone-number {
+      color: #7b809a;
+    }
+  }
+
+  .mobile-input-succ {
+    color: green;
+    font-weight: 400;
+  }
+}
+
+.edit-icon {
+  color: var(--primary-color);
+  cursor: pointer;
+}

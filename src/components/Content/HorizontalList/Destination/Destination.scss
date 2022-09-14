@@ -1,0 +1,17 @@
+.HorizontalList-item {
+  min-width: 310px;
+  height: 200px;
+  object-fit: contain;
+  border-radius: 8px;
+  position: relative;
+
+  .HorizontalList-name {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    color: #ffffff;
+    position: absolute;
+    left: 24px;
+    top: 146px;
+  }
+}

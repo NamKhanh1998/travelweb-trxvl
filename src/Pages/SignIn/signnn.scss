@@ -1,0 +1,36 @@
+.signup-container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+
+  .signup-form {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 41px;
+
+    .signup-form-title {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+
+      h2 {
+        font-size: 45px;
+        line-height: 53px;
+
+        color: #4f4f4f;
+      }
+      p {
+        font-size: 25px;
+        line-height: 29px;
+        color: rgba(79, 79, 79, 0.8);
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+.Categories-container{
+    width: 1126px;
+    height: 66px;
+    display: flex;
+    justify-content: space-between;
+
+    .Categories-item{
+      
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+
+
+        .Categories-item-img{
+            width: 3.2rem;
+            height: 3.2rem;
+        }
+
+        span{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 18px;
+            color: #FFFFFF;
+            opacity: 0.4;
+        }
+
+        &:hover {
+            span {
+                opacity: 1;
+            }
+        }
+    }
+}

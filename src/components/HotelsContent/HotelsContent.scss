@@ -1,0 +1,9 @@
+.Hotel-Content-wrapper {
+  position: relative;
+  width: 1366px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  top: calc(var(--content-to-top) - var(--header-height));
+}

@@ -1,0 +1,76 @@
+.login-img {
+  flex: 1;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .blur-layer {
+    position: absolute;
+    width: 45px;
+    bottom: 0;
+    left: 675px;
+    top: 0px;
+
+    background: linear-gradient(
+      180deg,
+      rgba(45, 120, 255, 0.8) 0%,
+      rgba(47, 170, 253, 0.8) 20.31%,
+      rgba(25, 94, 165, 0.8) 50.52%,
+      rgba(26, 147, 232, 0.8) 69.27%,
+      rgba(13, 78, 183, 0.8) 100%
+    );
+    filter: blur(20px);
+  }
+
+  .login-logo {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 41.5325px;
+    line-height: 63px;
+    position: absolute;
+    width: 123px;
+    height: 62.3px;
+    left: 45px;
+    top: 23px;
+    font-weight: 700;
+    color: #fffdfd;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .Social-login {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+
+    .Social-login-item {
+      background: #fffdfd;
+      border: 1px solid #cccccc;
+      box-shadow: 2px 4px 6px rgba(79, 79, 79, 0.15);
+      border-radius: 15px;
+      width: 384px;
+      height: 34px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+      cursor: pointer;
+
+      .Social-login-icon {
+        color: var(--primary-color);
+        width: 25px;
+        height: 25px;
+      }
+
+      span {
+        font-size: 15px;
+        line-height: 18px;
+        /* identical to box height */
+
+        color: #707070;
+      }
+    }
+  }
+}

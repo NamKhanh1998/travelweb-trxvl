@@ -1,0 +1,144 @@
+.HotelItem-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background-color: #fff;
+  box-shadow: 0px 4px 16px rgba(158, 158, 158, 0.25);
+  border-radius: 16px;
+  padding: 16px 16px 24px;
+
+  .HotelItem-img {
+    width: 310px;
+    height: 200px;
+    position: relative;
+    border-radius: 8px;
+
+    .heart-icon {
+      position: absolute;
+      width: 32px;
+      height: 32px;
+      left: 262px;
+      top: 16px;
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+
+  .HotelItem-details {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    width: 100%;
+
+    .HotelItem-ifos {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+
+      .HotelItem-info_name-rate {
+        display: flex;
+        justify-content: space-between;
+        width: 310px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 31px;
+        align-items: center;
+        color: #000000;
+
+        .info-rate {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+        }
+      }
+
+      .info-days {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: left;
+        color: #000000;
+        opacity: 0.5;
+      }
+    }
+
+    .HotelItem-transport {
+      display: flex;
+      justify-content: space-between;
+      width: 310px;
+
+      .transport-item {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        align-items: center;
+
+        .transport-icon {
+          width: 24px;
+          height: 24px;
+          color: #000000;
+          opacity: 0.5;
+        }
+
+        p {
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 15px;
+
+          color: #000000;
+
+          opacity: 0.5;
+        }
+      }
+    }
+
+    .HotelItem-tour {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      align-items: flex-start;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      color: #000000;
+      opacity: 0.5;
+
+      .tour-item {
+        display: flex;
+        align-items: center;
+      }
+    }
+
+    .HotelItem-price {
+      display: flex;
+      gap: 24px;
+      align-items: center;
+      .old-price {
+        font-weight: 100;
+        font-size: 16px;
+        line-height: 20px;
+        text-decoration-line: line-through;
+
+        color: #000000;
+      }
+
+      .now-price {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 31px;
+        color: #000000;
+
+        span {
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 15px;
+
+          color: #000000;
+          margin-left: 4px;
+          opacity: 0.5;
+        }
+      }
+    }
+  }
+}
